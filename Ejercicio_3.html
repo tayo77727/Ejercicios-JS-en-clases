@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ejercicio3</title>
+</head>
+<body>
+    <script>
+    /*
+    3.	Escriba un programa que muestre los primeros N números Impares 
+        y muéstrelos en pantalla; además, muestre la suma. 
+    */
+    
+    let i=1, num, suma=0;
+
+    while(i<=10){
+        num = parseFloat(prompt("Ingrese un numero: "));
+        if(num%3==0){
+        suma = suma+num;
+
+        document.write("<p>Numero impar: "+num+"</p>");
+        
+        }
+
+        i++;
+
+    } 
+    document.write("<p>La suma de los impares: "+suma+"</p>");
+    
+    </script>
+</body>
+</html>

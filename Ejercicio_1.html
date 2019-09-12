@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ejercicio1</title>
+</head>
+<body>
+    
+    <!--
+    1.	Escriba un programa que muestre los N términos de los números naturales, y muestre la suma. Ej. 
+    Para el número 7 ingresado el resultado sería el siguiente: 
+    Suma: 28 
+    -->
+    
+    <script>
+    
+    let i=1, suma=0, num;
+    
+    num = parseInt(prompt("Digite un numero natural: "));
+
+    while(i<=num){
+        suma=suma+i;
+        document.write("<p>"+suma+"</p>");
+        i++;
+    }
+
+    document.write("<p>La suma del numero ingresado es: "+suma+"</p>");
+    </script>
+</body>
+</html>

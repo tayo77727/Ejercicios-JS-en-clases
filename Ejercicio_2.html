@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio2</title>
+</head>
+<body>
+
+    
+    <script>
+    /*2.Escriba un programa en javascript que tome 10 números ingresado del teclado
+        y muestre el resultado de la suma y su promedio. 
+    */
+
+    let i=1, num, suma=0, promedio=0;
+
+    while(i<=10){
+        num = parseFloat(prompt("Ingrese un numero: "));
+        suma = suma+num;
+        i++;
+    } 
+
+    promedio=suma/10;
+
+    document.write("<p> La suma de los numeros es: "+suma+"</p>");
+    document.write("<p> El promedio es: "+promedio+"</p>");
+    </script>
+</body>
+</html>
